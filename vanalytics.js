@@ -161,7 +161,7 @@ var vAnalytics = function(options)
 				var result = collect_y(ticker);
 
 				// Height of canvas divided by 2, the negative is designed to invert the graph
-				y = -result + 180 
+				y = -result + v.height/2 
 
 				// If first position
 				if(first){ 
@@ -186,7 +186,6 @@ var vAnalytics = function(options)
 		}
 
 		function onPlayingVideo(output_id) {
-			console.log(output_id);
 			var x = (v.width*v.currentTime/v.duration);
 			var pixels_to_pnts = pixels_to_points();
 			value = collect_y(x/pixels_to_pnts) + 0.0001;
