@@ -56,6 +56,6 @@ analytics = new vAnalytics({
 ```
 
 ### Screenshot
-![The Dark Knight](https://raw.githubusercontent.com/adibbehjat/Video-Analytics-Display/master/screen-shot.png)
+![The Dark Knight](https://raw.githubusercontent.com/adibbehjat/Video-Analytics-Display/master/screen-shot.gif)
 
 ## Feel free to contribute, support, fork, or improve!
